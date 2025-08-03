@@ -1,0 +1,100 @@
+.payment_solutions_africanpayment, .payment_solutions_africanpayment .bg-dark {
+  background-color: #001212 !important;
+}
+.payment_solutions_africanpayment .hero_payment_solutions {
+  background-image: url("../images/backgrounds/footer_bg_1.webp"),
+    linear-gradient(#012a2b, #012a2b) !important;
+  background-position: top center;
+  background-size: cover;
+}
+
+.payment_solutions_africanpayment .btn.bg-primary {
+  background-color: #d9ff43 !important;
+  color: #012a2b !important;
+}
+.payment_solutions_africanpayment .btn.bg-primary:hover{
+  color: #fff !important;
+}
+
+.payment_solutions_africanpayment .btn:hover::before {
+  background-color: #000000 !important;
+  color: #fff !important;
+}
+
+.payment_solutions_africanpayment .text-primary {
+  color: #d9ff43 !important;
+}
+
+.payment_solutions_africanpayment
+  .payment_methods_section
+  .badge.bg-primary-subtle {
+  background-color: #001212 !important;
+}
+.payment_solutions_africanpayment .payment_methods_section .content_wrapper {
+  background-image: url("../images/backgrounds/footer_bg_1.webp"),
+    linear-gradient(#012a2b, #012a2b) !important;
+    background-size: cover;
+}
+
+.payment_solutions_africanpayment .payment_method_block .block_content:before {
+  background-image: linear-gradient(
+    30deg,
+    rgba(217, 255, 67, 0.4) 0%,
+    transparent 60%
+  );
+}
+
+.payment_solutions_africanpayment .payment_method_block:hover .block_icon,
+.payment_solutions_africanpayment .payment_method_block:hover .block_content {
+  border-color: #d9ff43 !important;
+}
+
+.payment_solutions_africanpayment .contact_process_step .iconbox_block {
+  border-color: #d9ff43;
+}
+
+.payment_solutions_africanpayment .contact_process_step .block_number {
+  background-image: linear-gradient(to right, #d9ff43 0%, #001212 100%);
+}
+
+.payment_solutions_africanpayment .section_decoration.bg-secondary {
+  background-image: url("../images/backgrounds/footer_bg_1.webp"),
+    linear-gradient(#012a2b, #012a2b) !important;
+  background-position: top center;
+  background-size: cover;
+}
+
+.payment_solutions_africanpayment .ps_pricing_block.bg-grd {
+  background: #d9ff43;
+}
+
+.payment_solutions_africanpayment .ps_pricing_block.bg-grd-2 {
+  background: #00a0f6;
+}
+
+.payment_solutions_africanpayment .btn.bg-primary [fill="black"] {
+  fill: #fff !important;
+}
+
+.payment_solutions_africanpayment .badge-dark {
+  background-color: #000000 !important;
+}
+
+.payment_solutions_africanpayment .site_footer .section_decoration {
+  background-image: url("../images/backgrounds/footer_bg_1.webp"),
+    linear-gradient(#012a2b, #012a2b) !important;
+  background-position: top center;
+  background-size: cover;
+}
+
+.payment_solutions_africanpayment .iconlist_block a:hover {
+  color: #d9ff43 !important;
+}
+
+.payment_solutions_africanpayment .social_icons_block a:before {
+  background-image: linear-gradient(0deg, #d9ff43, #d9ff43);
+}
+
+.payment_solutions_africanpayment .btn.bg-dark:hover::before {
+  background-color: #fff !important;
+}

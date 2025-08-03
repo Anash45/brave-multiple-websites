@@ -5916,6 +5916,25 @@ input[type=search]::-webkit-search-results-decoration {
   background-color: var(--bs-primary);
 }
 
+.payment_solutions_africanpayment {
+  --bs-body-bg: #012a2b;
+  --bs-body-color: #C6C6C6;
+  --bs-body-color-rgb: 198, 198, 198;
+  --bs-heading-color: #ffffff;
+  --bs-dark: #001212;
+  --bs-dark-rgb: 6, 2, 16;
+  --bs-primary-bg-subtle: rgba(217, 255, 67, 0.10);
+  --bs-secondary: #023436;
+  --bs-secondary-rgb: 2, 52, 54;
+}
+.payment_solutions_africanpayment .mobile_menu_btn {
+  border-radius: 100%;
+}
+.payment_solutions_africanpayment .mobile_menu_btn:hover {
+  color: var(--bs-dark);
+  background-color: var(--bs-primary);
+}
+
 .financial_consulting {
   --bs-body-color: #615959;
   --bs-body-color-rgb: 97, 89, 89;
