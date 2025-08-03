@@ -6,10 +6,10 @@
         stroke-width: 0px;
       }
   .cls-1{
-    fill: #00a0f6;
+    fill: #001212;
   }
       .cls-2 {
-        fill: #ffffff;
+        fill: #d9ff43;
       }
     </style>
   </defs>
