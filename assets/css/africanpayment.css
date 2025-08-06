@@ -1,18 +1,16 @@
-.payment_solutions_africanpayment, .payment_solutions_africanpayment .bg-dark {
+.payment_solutions_africanpayment,
+.payment_solutions_africanpayment .bg-dark {
   background-color: #001212 !important;
 }
 .payment_solutions_africanpayment .hero_payment_solutions {
-  background-image: url("../images/backgrounds/footer_bg_1.webp"),
-    linear-gradient(#012a2b, #012a2b) !important;
-  background-position: top center;
-  background-size: cover;
+  background-image: linear-gradient(to right, #008a6b 0%, #001212 100%);
 }
 
 .payment_solutions_africanpayment .btn.bg-primary {
   background-color: #d9ff43 !important;
   color: #012a2b !important;
 }
-.payment_solutions_africanpayment .btn.bg-primary:hover{
+.payment_solutions_africanpayment .btn.bg-primary:hover {
   color: #fff !important;
 }
 
@@ -31,9 +29,7 @@
   background-color: #001212 !important;
 }
 .payment_solutions_africanpayment .payment_methods_section .content_wrapper {
-  background-image: url("../images/backgrounds/footer_bg_1.webp"),
-    linear-gradient(#012a2b, #012a2b) !important;
-    background-size: cover;
+  background-image: linear-gradient(to right, #008a6b 0%, #001212 100%);
 }
 
 .payment_solutions_africanpayment .payment_method_block .block_content:before {
@@ -58,10 +54,7 @@
 }
 
 .payment_solutions_africanpayment .section_decoration.bg-secondary {
-  background-image: url("../images/backgrounds/footer_bg_1.webp"),
-    linear-gradient(#012a2b, #012a2b) !important;
-  background-position: top center;
-  background-size: cover;
+  background-image: linear-gradient(to right, #008a6b 0%, #001212 100%);
 }
 
 .payment_solutions_africanpayment .ps_pricing_block.bg-grd {
@@ -69,10 +62,14 @@
 }
 
 .payment_solutions_africanpayment .ps_pricing_block.bg-grd-2 {
-  background: #00a0f6;
+  background: #008a6b;
 }
 
 .payment_solutions_africanpayment .btn.bg-primary [fill="black"] {
+  fill: #012a2b !important;
+}
+
+.payment_solutions_africanpayment .btn.bg-primary:hover [fill="black"] {
   fill: #fff !important;
 }
 
@@ -81,10 +78,7 @@
 }
 
 .payment_solutions_africanpayment .site_footer .section_decoration {
-  background-image: url("../images/backgrounds/footer_bg_1.webp"),
-    linear-gradient(#012a2b, #012a2b) !important;
-  background-position: top center;
-  background-size: cover;
+  background-image: linear-gradient(to right, #008a6b 0%, #001212 100%);
 }
 
 .payment_solutions_africanpayment .iconlist_block a:hover {

@@ -1,0 +1,189 @@
+.payment_solutions_harambeepay {
+  --bs-body-color: #efefef !important;
+  --bs-body-color-rgb: 97, 89, 89;
+  --bs-heading-color: #020202;
+  --bs-primary: #ff6100;
+  --bs-dark: #020202;
+  --bs-dark-rgb: 2, 2, 2;
+  --bs-primary-rgb: 255, 97, 0;
+  --bs-secondary: #242628;
+  --bs-secondary-rgb: 36, 38, 40;
+  --bs-border-color: #e6ebeb;
+  --bs-light: #e6ebeb;
+  --bs-light-rgb: 230, 235, 235;
+
+  .mobile_menu_btn {
+    border-radius: 100%;
+    &:hover {
+      color: var(--bs-dark);
+      background-color: var(--bs-primary);
+    }
+  }
+}
+
+.payment_method_block .block_title{
+  color: #ffffff;
+}
+.payment_solutions_harambeepay,
+.payment_solutions_harambeepay .bg-dark {
+  background-color: #fff !important;
+}
+.payment_solutions_harambeepay .hero_payment_solutions {
+  background-image: url(../images/backgrounds/hero_bg_pattern_1.webp),
+    linear-gradient(#020202, #020202);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 0px;
+}
+
+.payment_solutions_harambeepay .btn.bg-primary {
+  background-color: #f64700 !important;
+  color: #ffffff !important;
+}
+.payment_solutions_harambeepay .btn.bg-primary:hover {
+  color: #fff !important;
+}
+
+.payment_solutions_harambeepay .btn:hover::before {
+  background-color: #000000 !important;
+  color: #fff !important;
+}
+
+.payment_solutions_harambeepay .text-primary {
+  color: #020202 !important;
+}
+.bg-primary-subtle {
+  background-color: #ffffff1a !important;
+}
+.payment_solutions_harambeepay
+  .payment_methods_section
+  .badge.bg-primary-subtle {
+  background-color: #020202fa !important;
+  color: #fff !important;
+}
+.payment_solutions_harambeepay .payment_methods_section .content_wrapper {
+  background-image: url(../images/backgrounds/hero_bg_pattern_1.webp),
+    linear-gradient(#020202, #020202);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 0px;
+}
+
+.payment_solutions_harambeepay .payment_method_block .block_content:before {
+  background-image: linear-gradient(
+    30deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    transparent 60%
+  ) !important;
+}
+
+.payment_method_block .block_icon,
+.payment_method_block .block_content{
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+.iconlist_block a{
+  color: #f6f6f6 !important;
+}
+.payment_solutions_harambeepay .payment_method_block:hover .block_icon,
+.payment_solutions_harambeepay .payment_method_block:hover .block_content {
+  border-color: #f64700 !important;
+}
+
+.payment_solutions_harambeepay .contact_process_step .iconbox_block {
+  border-color: #f64700;
+}
+
+.payment_solutions_harambeepay .contact_process_step .block_number {
+  background-image: linear-gradient(to right, #f64700 0%, #001212 100%);
+}
+
+.payment_solutions_harambeepay .section_decoration.bg-secondary {
+  background-image: url(../images/backgrounds/hero_bg_pattern_1.webp),
+    linear-gradient(#020202, #020202);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 0px;
+}
+
+.payment_solutions_harambeepay .ps_pricing_block.bg-grd {
+  background: #f64700;
+}
+
+.funfact_block .funfact_value{
+  color: #ffffff !important;
+}
+.funfact_block.left_layout .funfact_icon{
+  background-color: #ffffff !important;
+}
+
+.post_meta a{
+  color: #242628 !important;
+}
+.payment_solutions_harambeepay .ps_pricing_block.bg-grd-2 {
+  background: #008a6b;
+}
+.contact_process_step .iconbox_title{
+  color: #ffffff;
+}
+
+.payment_solutions_harambeepay .btn.bg-primary [fill="black"] {
+  fill: #ffffff !important;
+}
+
+.payment_solutions_harambeepay .btn.bg-primary:hover [fill="black"] {
+  fill: #fff !important;
+}
+
+.payment_solutions_harambeepay .badge-dark {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.payment_solutions_harambeepay .badge-light {
+  background-color: #ffffffe4 !important;
+  color: #020202 !important;
+}
+
+
+.accordion-item .text-muted{
+  color: #615959 !important;
+}
+.ps_policy_section .heading_text{
+  color: #ffffff !important;
+}
+
+.accordion-item .accordion-button{
+  color: #020202 !important;
+}
+
+.payment_solutions_harambeepay .site_footer .section_decoration {
+  background-image: url(../images/backgrounds/hero_bg_pattern_1.webp),
+    linear-gradient(#020202, #020202);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center 0px;
+}
+
+.payment_solutions_harambeepay .iconlist_block a:hover {
+  color: #f64700 !important;
+}
+
+.payment_solutions_harambeepay .social_icons_block a:before {
+  background-image: linear-gradient(0deg, #f64700, #f64700);
+}
+
+.payment_solutions_harambeepay .btn.bg-dark:hover::before {
+  background-color: #fff !important;
+}
+
+.footer_bottom {
+  color: #242628 !important;
+}
+
+.footer_layout_3 .social_icons_block a{
+  background-color: #020202 !important;
+}

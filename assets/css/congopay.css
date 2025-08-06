@@ -2,9 +2,7 @@
     background-color: #01030f !important;
 }
 .payment_solutions_congopay .hero_payment_solutions{
-    background-image: url(../images/h3_bg3.jpg);
-    background-size: cover;
-    background-position: center;
+    background-image: linear-gradient(120deg, #00a0f6, #000080);
 }
 
 .payment_solutions_congopay .btn.bg-primary{
