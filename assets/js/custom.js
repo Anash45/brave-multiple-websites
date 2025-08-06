@@ -63,4 +63,24 @@ $(function () {
     $backdrop.removeClass("active");
     setTimeout(() => {}, 350);
   }
+
+    $(document).on('click', '.big-dropdown [data-bs-toggle="tab"]', function (e) {
+    e.preventDefault();
+
+    const $button = $(this);
+    const $dropdown = $button.closest('.big-dropdown');
+    const targetSelector = $button.data('bs-target');
+
+    // Remove 'active' from all tab buttons in this dropdown
+    $dropdown.find('[data-bs-toggle="tab"]').removeClass('active').attr('aria-selected', 'false');
+
+    // Set 'active' on clicked tab
+    $button.addClass('active').attr('aria-selected', 'true');
+
+    // Hide all tab-panes in this dropdown
+    $dropdown.find('.tab-pane').removeClass('active show');
+
+    // Show the targeted tab-pane in this dropdown
+    $dropdown.find(targetSelector).addClass('active show');
+  });
 });
