@@ -91,6 +91,15 @@
   --bs-border-radius-sm: 5px;
   --bs-border-radius-lg: 20px;
   --bs-transition: 300ms ease;
+
+  --inner-title-color: #230952;
+  --inner-sub-title-color: #9225ff;
+  --inner-para-color: #6B6B6B;
+  --inner-title2-color: #230952;
+  --inner-dark-title-color: #ffffff;
+  --inner-dark-sub-title-color: #D9FF43;
+  --inner-dark-para-color: #E4EEEF;
+  --inner-gradient: linear-gradient(120deg, #8234C5, #230952);
 }
 
 /* 1.1 - Template Fonts - Start

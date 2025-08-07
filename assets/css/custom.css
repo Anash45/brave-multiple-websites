@@ -123,10 +123,10 @@ header .nav-link {
     z-index: 1050;
     margin: 0 auto;
   }
-  .big-dropdown .big-dropdown__content>.row{
+  .big-dropdown .big-dropdown__content > .row {
     position: relative;
   }
-  .big-dropdown .col-lg-4{
+  .big-dropdown .col-lg-4 {
     position: sticky;
     top: 0;
     z-index: 1;
@@ -179,7 +179,7 @@ header .nav-link {
 .big-dropdown .h-100 {
   background-color: #f8fafd;
 }
-.item-style-1 .d-flex.gap-3>div:first-child{
+.item-style-1 .d-flex.gap-3 > div:first-child {
   flex-shrink: 0;
 }
 .item-style-1 svg,
@@ -216,5 +216,65 @@ header .nav-link {
 }
 
 .big-dropdown .col-lg-8 {
-  height: var(--content-tab);
+  max-height: var(--content-tab);
+}
+
+.inner-page .title {
+  color: var(--inner-title-color);
+}
+
+.inner-page .sub-title {
+  color: var(--inner-sub-title-color);
+}
+
+.inner-page :is(p, span, li, label):not(:is(header *, footer *)) {
+  color: var(--inner-para-color);
+}
+
+.inner-page .accept-payments .main-content .single-item h5, .inner-page .our-solutions .single-item h5 {
+  color: var(--inner-title2-color);
+}
+
+.inner-page section:not(.hero_section) {
+  overflow-x: visible !important;
+}
+
+.hero_title_2 {
+  font-size: 60px !important;
+  line-height: 125% !important;
+  margin: 0 !important;
+}
+
+.inner-page .xlr{
+  font-size: 24px;
+}
+
+.inner-page section .row{
+  margin: 0 -12px !important;
+}
+
+.inner-page .row>div{
+  padding: 0 12px;
+}
+
+.inner-dark .title{
+  color: #ffffff;
+}
+
+.inner-dark .sub-title{
+  color: var(--inner-dark-sub-title-color);
+}
+
+.inner-dark .para{
+  color: var(--inner-dark-para-color) !important;
+}
+
+.inner-gradient{
+  background-image: var(--inner-gradient) !important;
+}
+
+@media (max-width: 768px) {
+  .hero_title_2{
+    font-size: 40px !important;
+  }
 }
