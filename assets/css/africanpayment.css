@@ -2,6 +2,9 @@
 .payment_solutions_africanpayment .bg-dark {
   background-color: #001212 !important;
 }
+body.payment_solutions_africanpayment{
+  background-color: #efefef !important;
+}
 .payment_solutions_africanpayment .hero_payment_solutions {
   background-image: linear-gradient(to right, #008a6b 0%, #001212 100%);
 }
@@ -101,9 +104,6 @@
 Features Area CSS
 ===================================================*/
 
-.features-area {
-  background-color: #001212 !important;
-}
 .features-image {
   padding: 110px 210px 110px 90px;
   max-width: 600px;
@@ -149,7 +149,7 @@ Features Area CSS
 .features-content ul li {
   position: relative;
   padding: 2px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border-radius: 20px;
 }
 .features-content ul li .feature-box-inner {
@@ -158,28 +158,37 @@ Features Area CSS
   border-radius: 20px;
 
   /* Glass effect */
-  background: #001212;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
 
   /* Optional: shadow for floating look */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
   z-index: 1;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
 }
 
-.features-content ul li::before {
+.features-content ul li .feature-box-inner:hover{
+  box-shadow: -4px -4px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* .features-content ul li::before {
   position: absolute;
   content: "";
   z-index: 0;
   border-radius: 20px;
-  bottom: -2px;
+  top: 0;
   left: 50%;
+  height: 100%;
+  width: 100%;
+  opacity: 0.2;
   transform: translateX(-50%);
   background: linear-gradient(
     135deg,
     rgba(217, 255, 67, 1) 0%,
     rgb(67, 255, 236) 100%
   );
-}
+  transition: 0.3s ease-in-out;
+} */
 
 .text-gradient {
   background: linear-gradient(
@@ -194,25 +203,11 @@ Features Area CSS
 }
 
 .features-content ul li:hover:before {
-  height: calc(100% + 4px);
-  width: calc(100% + 4px);
-  animation: bgAnimation 0.5s linear;
+  transform: rotate(180deg);
+  transform-origin: center;
 }
 
-@keyframes bgAnimation {
-  0% {
-    width: 0;
-    height: 0;
-  }
-  50% {
-    width: calc(100% + 4px);
-    height: calc(4px);
-  }
-  100% {
-    height: calc(100% + 4px);
-    width: calc(100% + 4px);
-  }
-}
+
 .features-content ul li i {
   top: 50%;
   left: 40px;
@@ -298,6 +293,7 @@ Features Area CSS
 
 .work-process-shapes:after {
   content: "";
+  display: none !important;
   z-index: -1;
   position: absolute;
   right: 0;
@@ -368,7 +364,7 @@ Features Area CSS
   transition: 0.5s;
   text-align: center;
   border-radius: 7px;
-  background: #0d0d0d;
+  background: #ffffff;
   padding: 30px 20px 15px;
   border: 1px solid hsl(0deg 0% 100% / 10%);
 }
@@ -381,7 +377,7 @@ Features Area CSS
 
 .work-process-item .content h5,
 .work-process-item .content p {
-  color: #fff;
+  color: #001212;
   transition: 0.5s;
 }
 
@@ -600,7 +596,13 @@ Features Area CSS
 Banner Card Area CSS
 ===================================================*/
 .banner-card {
+  transition: 0.3s ease-in-out;
+  box-shadow: 10px 10px 0 #0000001a;
   padding: 30px 30px 0;
+}
+
+.banner-card:hover{
+  box-shadow: -10px 10px 0 #0000001a;
 }
 .banner-card .flex-warp {
   padding-left: 80px;
@@ -679,9 +681,7 @@ Banner Card Area CSS
   margin-bottom: 0;
   color: #001212;
 }
-.bg-color-9edd05 {
-  background-color: #9edd05;
-}
+
 .banner-card.part-three .flex-warp {
   margin-bottom: 88px;
 }
@@ -694,6 +694,9 @@ Banner Card Area CSS
 }
 .bg-color-def1ee {
   background-color: #def1ee;
+}
+.bg-color-d9ff43 {
+  background-color: #d9ff43;
 }
 
 .bg-color-ffffff {
@@ -909,7 +912,8 @@ Banner Card Area CSS
 .feature-card.style6 {
   position: relative;
   margin-bottom: 25px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
   border-radius: 8px;
   transition: 0.4s;
 }
@@ -965,7 +969,7 @@ Banner Card Area CSS
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  background: rgba(217, 255, 67, 0.15);
+  background: rgba(0, 18, 18, 0.15);
   transform: translateX(-50%);
 }
 .feature-card.style4:hover .feature-icon:before {
@@ -974,7 +978,7 @@ Banner Card Area CSS
 .feature-card.style4 .feature-icon i {
   font-size: 50px;
   line-height: 0.8;
-  color: #d9ff43;
+  color: #008a6b;
 }
 .feature-card.style5 {
   position: relative;
@@ -1065,7 +1069,7 @@ Banner Card Area CSS
 
 .feature-card h3 a {
   font-size: 24px;
-  color: #ffffff;
+  color: #001212;
   font-weight: 700;
 }
 
@@ -1074,7 +1078,7 @@ Banner Card Area CSS
 }
 
 .feature-card p {
-  color: #def1ee;
+  color: #001212;
 }
 .feature-card.style4:hover p {
   color: #082720 !important;
@@ -1221,4 +1225,63 @@ Banner Card Area CSS
   width: 55px;
   right: 37px;
   top: -15px;
+}
+.heading_text{
+  color: #008a6b;
+}
+.text-green{
+  color: #008a6b;
+}
+
+.heading_text_light{
+  color: #d9ff43;
+}
+
+.page-box{
+  padding: 40px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 0 #0000001a;
+  transition: 0.3s ease-in-out;
+}
+
+.page-box:hover{
+  box-shadow: -10px 10px 0 #0000001a;
+}
+.green-underline{
+  position: relative;
+}
+.green-underline::after {
+    position: absolute;
+    content: '';
+    background-image: url(../images/green-underline.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    top: 100%;
+    left: 0;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 13px;
+}
+
+.text-dark-green{
+  color: #001212;
+}
+
+.text-desc{
+  color: #0c3a30;
+}
+
+.pb-2-img{
+  aspect-ratio: 4/3;
+  object-fit: contain;
+  object-position: center;
+}
+
+.page-box .heading_text{
+  font-size: 48px;
+}
+
+.text-desc-lg{
+  font-size: 20px;
 }
