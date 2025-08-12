@@ -366,6 +366,7 @@ Features Area CSS
   border-radius: 7px;
   background: #ffffff;
   padding: 30px 20px 15px;
+  box-shadow: 8px 8px 0 #0000001a;
   border: 1px solid hsl(0deg 0% 100% / 10%);
 }
 
