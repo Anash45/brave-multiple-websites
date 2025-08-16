@@ -331,7 +331,9 @@ header .nav-link {
 }
 
 .africapay .hero-box {
-  background-image: linear-gradient(to right, #62cff4 30%, #2c67f2);
+  background-image: url(../images/multi-color-bg.jpg),
+    linear-gradient(to right, #62cff4 30%, #62cff4);
+  background-size: cover;
 }
 
 .africapay .sticky-card {
@@ -383,6 +385,48 @@ header .nav-link {
     drop-shadow(0 0 30px rgba(173, 216, 230, 0.25));
 }
 
+.integration-logo-img {
+  width: 100%;
+  height: 50px !important;
+  object-fit: contain;
+  object-position: center;
+}
+.africapay .stricked-menu.stricky-fixed {
+  backdrop-filter: blur(24px);
+  background-color: #fff9;
+  box-shadow: none;
+}
+
+.sec-hinderance{
+  padding: 120px;
+  background-image: url(../images/multi-color-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.sh-box{
+  background-color: #ffffff;
+  border-radius: 32px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.shb-title{
+    margin-bottom: 44px;
+    font-size: 68px;
+    font-weight: 600;
+}
+
+.shb-paragraph{
+  color: #020202;
+  font-size: 18px;
+}
 @keyframes glassGlow {
   0% {
     filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.9))
@@ -461,15 +505,26 @@ header .nav-link {
   object-position: center;
 }
 
-.africapay .bg-primary{
+.africapay .bg-primary {
   background-color: rgb(2 7 29) !important;
 }
-.africapay .site_footer .bg-primary{
+.africapay .site_footer .bg-primary {
   background-color: rgb(255 97 0) !important;
 }
 
-.africapay .btn.bg-primary:before{
+.africapay .btn.bg-primary:before {
   background-color: #ffffff !important;
+}
+@media (min-width: 1600px) {
+  .africapay .container {
+    max-width: 1560px !important;
+  }
+  .africapay .hero-title {
+    font-size: 80px;
+  }
+  .africapay .hero-content {
+    max-width: 100%;
+  }
 }
 @media (max-width: 991.98px) {
   .africapay .sticky-card {
