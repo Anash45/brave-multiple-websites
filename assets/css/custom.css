@@ -550,6 +550,7 @@ header .nav-link {
 }
 
 .ahs-3 .ap-hero-img{
+  width: 300px;
   filter: drop-shadow(0 0 10px #000000ac) !important;
   animation: unset !important;
 }
