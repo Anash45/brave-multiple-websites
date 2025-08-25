@@ -526,19 +526,32 @@ header .nav-link {
 }
 
 .ahs-2 .hero-box {
-  background-image: url(../images/ahs-2-hero.webp);
-  background-size: cover;
-  background-position: center bottom;
+  background-image: url(../images/hero-2-bg.jpg), linear-gradient(to bottom, #000120, #000120) !important;
+  background-size: contain;
+  background-position: center right;
+  background-repeat: no-repeat;
 }
 
 .ahs-2 .btn.bg-primary,
 .ahs-3 .btn.bg-primary {
-  background-color: #005aea !important;
+  background-color: #17a1ff !important;
 }
 
+.africanpay-2 .fa-circle{
+  color: #17a1ff !important;
+}
+
+.africanpay-3 .fa-circle{
+  color: #17a1ff !important;
+}
 .ahs-3 .hero-box {
-  background-image: url(../images/ahs-2-hero.webp);
+  background-image: url(../images/ahs-3-bg.jpg);
   background-size: cover;
+}
+
+.ahs-3 .ap-hero-img{
+  filter: drop-shadow(0 0 10px #000000ac) !important;
+  animation: unset !important;
 }
 
 .ahs-3 .col-lg-6:first-of-type .hero-box {
@@ -590,6 +603,26 @@ header .nav-link {
 .box-icon-1{
   height: 50px;
   width: 50px;
+}
+
+.ahs-1-box-1{
+  background-image: linear-gradient(
+    135deg,
+    rgba(217, 255, 67, 1) 0%,
+    rgb(67, 255, 236) 100%
+  ) !important;
+}
+
+.africanpay-1 .fa-circle{
+  color: green !important;
+}
+
+.ahs-1-box-2{
+  background-image: linear-gradient(135deg, #00d0a3 0%, #001212 100%) !important;
+}
+
+.ahs-1-box-2 .ap-hero-img{
+  filter: unset !important;
 }
 @media (min-width: 1600px) {
   .africapay:not(.inner-page-s1) .container {
