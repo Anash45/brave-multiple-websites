@@ -88,14 +88,14 @@ $(function () {
   });
 });
 
-window.history.scrollRestoration = "manual";
-window.onload = function () {
-  window.scrollTo(0, 0);
-};
+// window.history.scrollRestoration = "manual";
+// window.onload = function () {
+//   window.scrollTo(0, 0);
+// };
 
-window.onresize = function () {
-  window.scrollTo(0, 0);
-};
+// window.onresize = function () {
+//   window.scrollTo(0, 0);
+// };
 
 $(window).on("scroll", function () {
   var $title = $(".cards-title");
@@ -166,11 +166,11 @@ if ($(".sticky-card").length > 0) {
   handleScroll();
 
   // Recalculate on resize
-  $(window).on("resize", function () {
-    calculateTriggerPoints();
-    handleScroll();
-  });
+  // $(window).on("resize", function () {
+  //   calculateTriggerPoints();
+  //   handleScroll();
+  // });
 
-  // Scroll handler
-  $(window).on("scroll", handleScroll);
+  // // Scroll handler
+  // $(window).on("scroll", handleScroll);
 }

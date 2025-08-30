@@ -674,6 +674,25 @@ header .nav-link {
 .ahs-1-box-2 .ap-hero-img{
   filter: unset !important;
 }
+
+.africapay-0 .fc_social_icons_block li a::before{
+  background: #17a1ff !important;
+}
+
+.africapay-0 .iconlist_block a:hover{
+  color: #17a1ff !important;
+}
+
+.africapay-0 .service_block .service_icon img{
+  height: 42px !important;
+  max-height: 42px !important;
+  width: 42px !important;
+  max-width: 42px !important;
+}
+
+.africapay-0 .service_block.style_2 .service_icon{
+  background-image: linear-gradient(-20deg, transparent, #FFE7D8);
+}
 @media (min-width: 1600px) {
   .africapay:not(.inner-page-s1) .container {
     max-width: 1560px !important;
