@@ -1,5 +1,5 @@
 // ==================================================
-// * Project Name   :  Synox – Finance & Consulting Site Template.
+// * Project Name   :  Synox - Finance & Consulting Site Template.
 // * File           :  JS Base
 // * Version        :  1.0.0
 // * Author         :  XpressBuddy (https://themeforest.net/user/xpressbuddy/portfolio)
