@@ -693,6 +693,17 @@ header .nav-link {
 .africapay-0 .service_block.style_2 .service_icon{
   background-image: linear-gradient(-20deg, transparent, #FFE7D8);
 }
+
+.cus-mar img{
+  height: 60px;
+  object-fit: contain;
+  width: 60px;
+}
+
+.africapay-0 img.w-100.img-fluid.rounded-4{
+  object-fit: cover !important;
+  aspect-ratio: 16/9 !important;
+}
 @media (min-width: 1600px) {
   .africapay:not(.inner-page-s1) .container {
     max-width: 1560px !important;
