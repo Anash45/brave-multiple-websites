@@ -722,6 +722,61 @@ header .nav-link {
   color: #000120 !important;
 }
 
+.hs-4-mobile {
+    height: 512px;
+    width: 249px;
+    margin: 0 auto;
+    position: relative;
+}
+.hs-4-iframe {
+    padding: 0;
+    border-radius: 55px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+    top: 0;
+    width: 394px;
+    transform: scale(0.61) translateX(8px) translateY(3px);
+    bottom: 0 !important;
+    height: 163%;
+    transform-origin: left top;
+    scrollbar-width: none;
+}
+.hs-4-frame {
+    position: relative;
+    height: 100%;
+    z-index: 0;
+}
+
+.iphone-notch{
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  z-index: 2;
+}
+
+.africapay-0 .iconlist_block.unordered_list_block{
+  gap: 0 !important;
+}
+.africapay-0 .iconlist_block.unordered_list_block a{
+  font-size: 14px !important;
+}
+
+.africapay-0 .footer_layout_4 .footer_info_title{
+  margin-bottom: 15px !important;
+}
+
+.inner-page-s1 .text-desc-lg{
+  font-size: 16px;
+}
+
+.inner-page-s1 .heading_block .heading_text{
+  font-size: 36px !important;
+  line-height: 120% !important;
+}
 @media (min-width: 1600px) {
   .africapay:not(.inner-page-s1) .container {
     max-width: 1560px !important;
