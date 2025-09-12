@@ -419,7 +419,7 @@ header .nav-link {
 }
 
 .africapay .hero-box {
-  background-image: url(/assets/images/multi-color-bg.jpg),
+  background-image: url(../images/multi-color-bg.jpg),
     linear-gradient(to right, #62cff4 30%, #62cff4);
   background-size: cover;
 }
@@ -435,32 +435,32 @@ header .nav-link {
 }
 
 .africapay .sc-1 {
-  background-image: url(/assets/images/sc-img-1.png),
+  background-image: url(../images/sc-img-1.png),
     linear-gradient(142.23deg, #fff7f1 7.63%, #fae9ef 99.01%);
 }
 
 .africapay .sc-2 {
-  background-image: url(/assets/images/sc-img-2.png),
+  background-image: url(../images/sc-img-2.png),
     linear-gradient(142.23deg, #f3f8ff 7.63%, #cedbff 99.01%);
 }
 
 .africapay .sc-3 {
-  background-image: url(/assets/images/sc-img-3.png),
+  background-image: url(../images/sc-img-3.png),
     linear-gradient(284.05deg, #ebd1ff 8.66%, #f4e9fc 92.88%);
 }
 
 .africapay .sc-4 {
-  background-image: url(/assets/images/sc-img-4.png),
+  background-image: url(../images/sc-img-4.png),
     linear-gradient(142.23deg, #fdfdf5 7.63%, #e9fbef 99.01%);
 }
 
 .africapay .sc-5 {
-  background-image: url(/assets/images/sc-img-5.png),
+  background-image: url(../images/sc-img-5.png),
     linear-gradient(142.23deg, #fff8fb 7.63%, #fee9f3 99.01%);
 }
 
 .africapay .sc-6 {
-  background-image: url(/assets/images/sc-img-6.png),
+  background-image: url(../images/sc-img-6.png),
     linear-gradient(142.23deg, #f6fbff 7.63%, #e9f4ff 99.01%);
 }
 
@@ -493,7 +493,7 @@ header .nav-link {
 
 .sec-hinderance {
   padding: 120px;
-  background-image: url(/assets/images/multi-color-bg.jpg);
+  background-image: url(../images/multi-color-bg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -620,7 +620,7 @@ header .nav-link {
 }
 
 .ahs-2 .hero-box {
-  background-image: url(/assets/images/hero-2-bg.jpg),
+  background-image: url(../images/hero-2-bg.jpg),
     linear-gradient(to bottom, #000120, #000120) !important;
   background-size: contain;
   background-position: center right;
@@ -640,7 +640,7 @@ header .nav-link {
   color: #17a1ff !important;
 }
 .ahs-3 .hero-box {
-  background-image: url(/assets/images/ahs-3-bg.jpg);
+  background-image: url(../images/ahs-3-bg.jpg);
   background-size: cover;
 }
 
@@ -1388,27 +1388,27 @@ header .nav-link {
   }
 
   .africapay .sc-1 {
-    background-image: url(/assets/images/sc-img-mb-1.png);
+    background-image: url(../images/sc-img-mb-1.png);
   }
 
   .africapay .sc-2 {
-    background-image: url(/assets/images/sc-img-mb-2.png);
+    background-image: url(../images/sc-img-mb-2.png);
   }
 
   .africapay .sc-3 {
-    background-image: url(/assets/images/sc-img-mb-3.png);
+    background-image: url(../images/sc-img-mb-3.png);
   }
 
   .africapay .sc-4 {
-    background-image: url(/assets/images/sc-img-mb-4.png);
+    background-image: url(../images/sc-img-mb-4.png);
   }
 
   .africapay .sc-5 {
-    background-image: url(/assets/images/sc-img-mb-5.png);
+    background-image: url(../images/sc-img-mb-5.png);
   }
 
   .africapay .sc-6 {
-    background-image: url(/assets/images/sc-img-mb-6.png);
+    background-image: url(../images/sc-img-mb-6.png);
   }
 
   .inner-page-s1 .heading_block .heading_text {
