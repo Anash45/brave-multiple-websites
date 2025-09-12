@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="thumbnail" content="/public/frontend-assets/images/synox_page_thumbnail.webp" />
+    <meta
+      name="description"
+      content="Synox - Finance & Consulting Site Template."
+    />
+    <meta
+      name="keywords"
+      content="Finance & Consulting Bootstrap Site Template"
+    />
+    <meta name="author" content="XpressBuddy" />
+
+    <title>Africanpay - Digital Wallet</title>
+    <link
+      rel="shortcut icon"
+      href="/public/frontend-assets/images/africanpay-home/african-icon.svg"
+    />
+
+    <!-- Fraimwork - CSS Include -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/public/frontend-assets/css/bootstrap.min.css"
+    />
+
+    <!-- Icon - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="/public/frontend-assets/css/fontawesome.css" />
+
+    <!-- Animation - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="/public/frontend-assets/css/animate.min.css" />
+
+    <!-- Carousel - CSS Include -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/public/frontend-assets/css/swiper-bundle.min.css"
+    />
+
+    <!-- Video & Image Popup - CSS Include -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/public/frontend-assets/css/magnific-popup.min.css"
+    />
+
+    <!-- Counter - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="/public/frontend-assets/css/odometer.min.css" />
+
+    <!-- Custom - CSS Include -->
+    <link rel="stylesheet" type="text/css" href="/public/frontend-assets/css/style.css?v=9" />
+    <link rel="stylesheet" type="text/css" href="/public/frontend-assets/css/custom.css?v=9" />
+  </head>
+
+  <body class="financial_consulting africapay africapay-0 inner-page-s1">
+    <!-- Body Wrap - Start -->
+    <div class="page_wrapper">
+      <!-- Back To Top - Start -->
+      <div class="backtotop">
+        <a href="#" class="scroll">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+      <!-- Back To Top - End -->
+
+      <!-- Site Header - Start
+      ================================================== -->
+      <header class="site_header header_layout_1">
+        <div class="xb-header stricky">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-2 col-5">
+                <div class="site_logo">
+                  <a class="site_link" href="index.html">
+                    <img
+                      src="/public/frontend-assets/images/africanpay-home/AfricanPay-1.png"
+                      alt="Site Logo White"
+                    />
+                    <img
+                      src="/public/frontend-assets/images/africanpay-home/AfricanPay-1.png"
+                      alt="Site Logo Black"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-2">
+                <nav class="main_menu navbar navbar-expand-lg">
+                  <div
+                    class="main_menu_inner collapse navbar-collapse justify-content-lg-center"
+                    id="main_menu_dropdown"
+                  >
+                    <ul
+                      class="main_menu_list unordered_list justify-content-center"
+                    >
+                      <li class="active">
+                        <a class="nav-link" href="./index.html"> Home </a>
+                      </li>
+                      <li class="dropdown">
+                        <a
+                          class="nav-link"
+                          href="#"
+                          id="enterprise_submenu"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Enterprise
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="enterprise_submenu"
+                        >
+                          <li>
+                            <a href="/enterprise-1"
+                              >Accept Online Payment</a
+                            >
+                          </li>
+                          <li><a href="/enterprise-2">Payment Link</a></li>
+                          <li><a href="/enterprise-3">Point of Sale</a></li>
+                          <li><a href="/enterprise-4">Card Issuing</a></li>
+                          <li><a href="/enterprise-5">B2B</a></li>
+                          <li>
+                            <a href="/enterprise-6">Create Invoice</a>
+                          </li>
+                          <li><a href="/enterprise-7">Pay Your Team</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a
+                          class="nav-link"
+                          href="#"
+                          id="startup_submenu"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Startup
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="startup_submenu"
+                        >
+                          <li>
+                            <a href="/startup-1">Free Online Store</a>
+                          </li>
+                          <li>
+                            <a href="/startup-2"
+                              >Receive Payment Without Store</a
+                            >
+                          </li>
+                          <li>
+                            <a href="/startup-3"
+                              >Raise Startup Investment</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown">
+                        <a
+                          class="nav-link"
+                          href="#"
+                          id="personal_submenu"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Personal
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="personal_submenu"
+                        >
+                          <li><a href="/personal-1">Shop Online</a></li>
+                          <li><a href="/personal-2">Pay Bill</a></li>
+                          <li><a href="/personal-3">P2P</a></li>
+                          <li><a href="/personal-4">Mobile Top-Up</a></li>
+                          <li><a href="/personal-5">Make Invest</a></li>
+                          <li><a href="/personal-6">Donate</a></li>
+                          <li><a href="/personal-7">Remittance</a></li>
+                          <li><a href="/personal-8">Cash Out</a></li>
+                          <li><a href="/personal-9">Virtual Card</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a
+                          class="nav-link"
+                          href="#"
+                          id="partnership_submenu"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Partnership
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="partnership_submenu"
+                        >
+                          <li>
+                            <a href="/partnership-1">Integrated Partner</a>
+                          </li>
+                          <li>
+                            <a href="/partnership-2">Agent Partner</a>
+                          </li>
+                          <li>
+                            <a href="/partnership-3">Distributor Partner</a>
+                          </li>
+                          <li>
+                            <a href="/partnership-4">Affiliate Partner</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown">
+                        <a
+                          class="nav-link"
+                          href="#"
+                          id="resources_submenu"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Resources
+                        </a>
+                        <ul
+                          class="dropdown-menu"
+                          aria-labelledby="resources_submenu"
+                        >
+                          <li>
+                            <a href="/resources-1"
+                              >Security and Compliance</a
+                            >
+                          </li>
+                          <li><a href="/resources-2">Developer API</a></li>
+                          <li>
+                            <a href="/resources-3">Help and Support</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="col-lg-2 col-5">
+                <ul class="btns_group p-0 unordered_list justify-content-end">
+                  <li>
+                    <button
+                      class="mobile_menu_btn"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#main_menu_dropdown"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <i class="far fa-bars"></i>
+                    </button>
+                  </li>
+                  <li>
+                    <a class="btn bg-dark rounded-pill" href="#!">
+                      <span class="btn_icon">
+                        <i class="fa-solid fa-user"></i>
+                      </span>
+                      <span class="btn_label">Login</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Site Header - End
+      ================================================== -->
+
+      <!-- Main Body - Start
+      ================================================== -->
+
+      @yield('content')
+
+      <!-- Main Body - End
+      ================================================== -->
+
+      <!-- Site Footer - Start
+      ================================================== -->
+      <footer class="site_footer mt-5 pt-5 footer_layout_4 section_decoration">
+        <div class="container">
+          <div class="row justify-content-lg-between">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <h3 class="footer_info_title">Enterprise</h3>
+              <ul class="iconlist_block unordered_list_block mb-0">
+                <li>
+                  <a href="enterprise-1.html"
+                    ><span class="iconlist_text">Accept Online Payment</span></a
+                  >
+                </li>
+                <li>
+                  <a href="enterprise-2.html"
+                    ><span class="iconlist_text">Payment Link</span></a
+                  >
+                </li>
+                <li>
+                  <a href="enterprise-3.html"
+                    ><span class="iconlist_text">Point of Sale</span></a
+                  >
+                </li>
+                <li>
+                  <a href="enterprise-4.html"
+                    ><span class="iconlist_text">Card Issuing</span></a
+                  >
+                </li>
+                <li>
+                  <a href="enterprise-5.html"
+                    ><span class="iconlist_text">B2B</span></a
+                  >
+                </li>
+                <li>
+                  <a href="enterprise-6.html"
+                    ><span class="iconlist_text">Create Invoice</span></a
+                  >
+                </li>
+                <li>
+                  <a href="enterprise-7.html"
+                    ><span class="iconlist_text">Pay Your Team</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <h3 class="footer_info_title">Personal</h3>
+              <ul class="iconlist_block unordered_list_block mb-0">
+                <li>
+                  <a href="personal-1.html"
+                    ><span class="iconlist_text">Shop Online</span></a
+                  >
+                </li>
+                <li>
+                  <a href="personal-2.html"
+                    ><span class="iconlist_text">Pay Bill</span></a
+                  >
+                </li>
+                <li>
+                  <a href="personal-3.html"
+                    ><span class="iconlist_text">P2P</span></a
+                  >
+                </li>
+                <li>
+                  <a href="personal-4.html"
+                    ><span class="iconlist_text">Mobile Top Up</span></a
+                  >
+                </li>
+                <li>
+                  <a href="personal-5.html"
+                    ><span class="iconlist_text">Make Invest</span></a
+                  >
+                </li>
+                <li>
+                  <a href="personal-6.html"
+                    ><span class="iconlist_text">Donate</span></a
+                  >
+                </li>
+                <li>
+                  <a href="personal-7.html"
+                    ><span class="iconlist_text">Remittance</span></a
+                  >
+                </li>
+                <li>
+                  <a href="personal-8.html"
+                    ><span class="iconlist_text">Cash Out</span></a
+                  >
+                </li>
+                <li>
+                  <a href="personal-9.html"
+                    ><span class="iconlist_text">Virtual Card</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <h3 class="footer_info_title">Startup</h3>
+              <ul class="iconlist_block unordered_list_block mb-0">
+                <li>
+                  <a href="startup-1.html"
+                    ><span class="iconlist_text">Free Online Store</span></a
+                  >
+                </li>
+                <li>
+                  <a href="startup-2.html"
+                    ><span class="iconlist_text"
+                      >Receive Payment Without Store</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a href="startup-3.html"
+                    ><span class="iconlist_text"
+                      >Raid Start Up Investment</span
+                    ></a
+                  >
+                </li>
+              </ul>
+              <h3 class="footer_info_title mt-4">Resources</h3>
+              <ul class="iconlist_block unordered_list_block mb-0">
+                <li>
+                  <a href="resources-1.html"
+                    ><span class="iconlist_text"
+                      >Security and Compliance</span
+                    ></a
+                  >
+                </li>
+                <li>
+                  <a href="resources-2.html"
+                    ><span class="iconlist_text">Developer API</span></a
+                  >
+                </li>
+                <li>
+                  <a href="resources-3.html"
+                    ><span class="iconlist_text">Help and Support</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <h3 class="footer_info_title">Partnership</h3>
+              <ul class="iconlist_block unordered_list_block mb-0">
+                <li>
+                  <a href="partnership-1.html"
+                    ><span class="iconlist_text">Integrated Partner</span></a
+                  >
+                </li>
+                <li>
+                  <a href="partnership-2.html"
+                    ><span class="iconlist_text">Agent Partner</span></a
+                  >
+                </li>
+                <li>
+                  <a href="partnership-3.html"
+                    ><span class="iconlist_text">Distributor Partner</span></a
+                  >
+                </li>
+                <li>
+                  <a href="partnership-4.html"
+                    ><span class="iconlist_text">Affiliate Partner</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_bottom bg-dark">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <p class="copyright_text mb-0">
+                  Copyright © 2025 Africanpay, All rights reserved.
+                </p>
+              </div>
+              <div class="col-lg-6">
+                <ul
+                  class="social_icons_block fc_social_icons_block unordered_list justify-content-center justify-content-lg-end"
+                >
+                  <li>
+                    <a aria-label="Twitter X" href="#!">
+                      <svg
+                        viewBox="0 0 15 15"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.92704 6.35148L14.5111 0H13.1879L8.33921 5.5149L4.4666 0H0L5.85615 8.3395L0 15H1.32333L6.44364 9.17608L10.5334 15H15L8.92671 6.35148H8.92704ZM7.11456 8.41297L6.52121 7.58255L1.80014 0.974755H3.83269L7.64265 6.30746L8.236 7.13788L13.1885 14.0696H11.156L7.11456 8.41329V8.41297Z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a aria-label="Facebook" href="#!"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a aria-label="Linkedin" href="#!"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a aria-label="Paper Plane" href="#!"
+                      ><i class="fa-solid fa-paper-plane"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Site Footer - End
+      ================================================== -->
+    </div>
+    <!-- Body Wrap - End -->
+
+    <!-- Fraimwork - Jquery Include -->
+    <script src="/public/frontend-assets/js/jquery.min.js"></script>
+    <script src="/public/frontend-assets/js/popper.min.js"></script>
+    <script src="/public/frontend-assets/js/bootstrap.min.js"></script>
+    <script src="/public/frontend-assets/js/bootstrap-dropdown-ml-hack.min.js"></script>
+
+    <!-- Carousel - Jquery Include -->
+    <script src="/public/frontend-assets/js/swiper-bundle.min.js"></script>
+
+    <!-- Animations - jquery include -->
+    <script src="/public/frontend-assets/js/parallaxie.js"></script>
+    <script src="/public/frontend-assets/js/parallax-scroll.js"></script>
+    <script src="/public/frontend-assets/js/wow.min.js"></script>
+
+    <!-- Video & Image Popup - Jquery Include -->
+    <script src="/public/frontend-assets/js/magnific-popup.min.js"></script>
+
+    <!-- Counter - Jquery Include -->
+    <script src="/public/frontend-assets/js/appear.min.js"></script>
+    <script src="/public/frontend-assets/js/odometer.min.js"></script>
+
+    <!-- Content Auto Sliding - jquery include -->
+    <script src="/public/frontend-assets/js/ticker.min.js"></script>
+
+    <!-- Custom - Jquery Include -->
+    <script src="/public/frontend-assets/js/main.js"></script>
+    <script src="/public/frontend-assets/js/custom.js?v=9"></script>
+  </body>
+</html>

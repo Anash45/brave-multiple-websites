@@ -1,18 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-.africapay-0 *:not(.fa-solid):not(.far):not(.fa-brands):not(.fa-regular):not(.fa):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
-  font-family: "Roboto", sans-serif !important;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+/* @font-face {
+  font-family: "Averta";
+  src: url("../fonts/avertastd-regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../fonts/avertastd-semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../fonts/avertastd-bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../fonts/avertastd-black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+} */
+
+.africapay-0
+  *:not(.fa-solid):not(.far):not(.fa-brands):not(.fa-regular):not(.fa):not(
+    h1
+  ):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-family: "Nunito Sans", "Roboto", sans-serif !important;
 }
 
-body.africapay-0  h1,
-body.africapay-0  h2,
-body.africapay-0  h3,
-body.africapay-0  h4,
-body.africapay-0  h5,
-body.africapay-0  h6{
-  font-family: "Poppins", sans-serif !important;
+body.africapay-0 h1,
+body.africapay-0 h2,
+body.africapay-0 h3,
+body.africapay-0 h4,
+body.africapay-0 h5,
+body.africapay-0 h6 {
+  font-family: "Nunito Sans", "Poppins", sans-serif !important;
 }
 
-.africanpay-1 *:not(.fa-solid):not(.far):not(.fa-brands):not(.fa-regular):not(.fa):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+.africanpay-1
+  *:not(.fa-solid):not(.far):not(.fa-brands):not(.fa-regular):not(.fa):not(
+    h1
+  ):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-family: "Open Sans", sans-serif !important;
 }
 .africanpay-1 h1,
@@ -20,11 +53,14 @@ body.africapay-0  h6{
 .africanpay-1 h3,
 .africanpay-1 h4,
 .africanpay-1 h5,
-.africanpay-1 h6{
+.africanpay-1 h6 {
   font-family: "Montserrat", sans-serif !important;
 }
 
-.africanpay-2 *:not(.fa-solid):not(.far):not(.fa-brands):not(.fa-regular):not(.fa):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+.africanpay-2
+  *:not(.fa-solid):not(.far):not(.fa-brands):not(.fa-regular):not(.fa):not(
+    h1
+  ):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-family: "Nunito", sans-serif !important;
 }
 .africanpay-2 h1,
@@ -32,11 +68,14 @@ body.africapay-0  h6{
 .africanpay-2 h3,
 .africanpay-2 h4,
 .africanpay-2 h5,
-.africanpay-2 h6{
+.africanpay-2 h6 {
   font-family: "Work Sans", sans-serif !important;
 }
 
-.africanpay-3 *:not(.fa-solid):not(.far):not(.fa-brands):not(.fa-regular):not(.fa):not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+.africanpay-3
+  *:not(.fa-solid):not(.far):not(.fa-brands):not(.fa-regular):not(.fa):not(
+    h1
+  ):not(h2):not(h3):not(h4):not(h5):not(h6) {
   font-family: "Inter", sans-serif !important;
 }
 .africanpay-3 h1,
@@ -44,7 +83,7 @@ body.africapay-0  h6{
 .africanpay-3 h3,
 .africanpay-3 h4,
 .africanpay-3 h5,
-.africanpay-3 h6{
+.africanpay-3 h6 {
   font-family: "DM Sans", sans-serif !important;
 }
 header .nav-link {
@@ -380,7 +419,7 @@ header .nav-link {
 }
 
 .africapay .hero-box {
-  background-image: url(../images/multi-color-bg.jpg),
+  background-image: url(/assets/images/multi-color-bg.jpg),
     linear-gradient(to right, #62cff4 30%, #62cff4);
   background-size: cover;
 }
@@ -396,27 +435,33 @@ header .nav-link {
 }
 
 .africapay .sc-1 {
-  background-image: url(../images/sc-img-1.png);
+  background-image: url(/assets/images/sc-img-1.png),
+    linear-gradient(142.23deg, #fff7f1 7.63%, #fae9ef 99.01%);
 }
 
 .africapay .sc-2 {
-  background-image: url(../images/sc-img-2.png);
+  background-image: url(/assets/images/sc-img-2.png),
+    linear-gradient(142.23deg, #f3f8ff 7.63%, #cedbff 99.01%);
 }
 
 .africapay .sc-3 {
-  background-image: url(../images/sc-img-3.png);
+  background-image: url(/assets/images/sc-img-3.png),
+    linear-gradient(284.05deg, #ebd1ff 8.66%, #f4e9fc 92.88%);
 }
 
 .africapay .sc-4 {
-  background-image: url(../images/sc-img-4.png);
+  background-image: url(/assets/images/sc-img-4.png),
+    linear-gradient(142.23deg, #fdfdf5 7.63%, #e9fbef 99.01%);
 }
 
 .africapay .sc-5 {
-  background-image: url(../images/sc-img-5.png);
+  background-image: url(/assets/images/sc-img-5.png),
+    linear-gradient(142.23deg, #fff8fb 7.63%, #fee9f3 99.01%);
 }
 
 .africapay .sc-6 {
-  background-image: url(../images/sc-img-6.png);
+  background-image: url(/assets/images/sc-img-6.png),
+    linear-gradient(142.23deg, #f6fbff 7.63%, #e9f4ff 99.01%);
 }
 
 .africapay .sc-title {
@@ -448,7 +493,7 @@ header .nav-link {
 
 .sec-hinderance {
   padding: 120px;
-  background-image: url(../images/multi-color-bg.jpg);
+  background-image: url(/assets/images/multi-color-bg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -575,7 +620,8 @@ header .nav-link {
 }
 
 .ahs-2 .hero-box {
-  background-image: url(../images/hero-2-bg.jpg), linear-gradient(to bottom, #000120, #000120) !important;
+  background-image: url(/assets/images/hero-2-bg.jpg),
+    linear-gradient(to bottom, #000120, #000120) !important;
   background-size: contain;
   background-position: center right;
   background-repeat: no-repeat;
@@ -586,19 +632,19 @@ header .nav-link {
   background-color: #17a1ff !important;
 }
 
-.africanpay-2 .fa-circle{
+.africanpay-2 .fa-circle {
   color: #17a1ff !important;
 }
 
-.africanpay-3 .fa-circle{
+.africanpay-3 .fa-circle {
   color: #17a1ff !important;
 }
 .ahs-3 .hero-box {
-  background-image: url(../images/ahs-3-bg.jpg);
+  background-image: url(/assets/images/ahs-3-bg.jpg);
   background-size: cover;
 }
 
-.ahs-3 .ap-hero-img{
+.ahs-3 .ap-hero-img {
   width: 300px;
   filter: drop-shadow(0 0 10px #000000ac) !important;
   animation: unset !important;
@@ -611,51 +657,51 @@ header .nav-link {
 .ahs-3 .col-lg-6:last-of-type .hero-box {
   background-position: center right;
 }
-.inner-page-accordion .accordion-item{
+.inner-page-accordion .accordion-item {
   background-color: #ffffff !important;
   padding: 20px !important;
   border-radius: 20px !important;
 }
 
-.inner-page-accordion .accordion-item:last-child{
+.inner-page-accordion .accordion-item:last-child {
   margin-bottom: 0 !important;
 }
 
 .global-payment .single-item {
-    background-color: white;
-    border: 1px solid #005aea7c;
-    text-align: center;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    padding: 40px 20px 33px;
-    transition: 0.3s;
+  background-color: white;
+  border: 1px solid #005aea7c;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 40px 20px 33px;
+  transition: 0.3s;
 }
 
 .global-payment .single-item:hover {
-    box-shadow: 0px 12px 24px #005aea20;
-    border-color: transparent;
+  box-shadow: 0px 12px 24px #005aea20;
+  border-color: transparent;
 }
 
-.text-desc-lg{
+.text-desc-lg {
   font-size: 24px;
 }
 
-.inner-sec-link{
+.inner-sec-link {
   color: #005aea;
   font-size: 20px;
   font-weight: 700;
 }
 
-.m-unset{
+.m-unset {
   margin: unset !important;
 }
 
-.box-icon-1{
+.box-icon-1 {
   height: 50px;
   width: 50px;
 }
 
-.ahs-1-box-1{
+.ahs-1-box-1 {
   background-image: linear-gradient(
     135deg,
     rgba(217, 255, 67, 1) 0%,
@@ -663,53 +709,57 @@ header .nav-link {
   ) !important;
 }
 
-.africanpay-1 .fa-circle{
+.africanpay-1 .fa-circle {
   color: green !important;
 }
 
-.ahs-1-box-2{
-  background-image: linear-gradient(135deg, #00d0a3 0%, #001212 100%) !important;
+.ahs-1-box-2 {
+  background-image: linear-gradient(
+    135deg,
+    #00d0a3 0%,
+    #001212 100%
+  ) !important;
 }
 
-.ahs-1-box-2 .ap-hero-img{
+.ahs-1-box-2 .ap-hero-img {
   filter: unset !important;
 }
 
-.africapay-0 .fc_social_icons_block li a::before{
+.africapay-0 .fc_social_icons_block li a::before {
   background: #17a1ff !important;
 }
 
-.africapay-0 .iconlist_block a:hover{
+.africapay-0 .iconlist_block a:hover {
   color: #17a1ff !important;
 }
 
-.africapay-0 .service_block .service_icon img{
+.africapay-0 .service_block .service_icon img {
   height: 42px !important;
   max-height: 42px !important;
   width: 42px !important;
   max-width: 42px !important;
 }
 
-.africapay-0 .service_block.style_2 .service_icon{
-  background-image: linear-gradient(-20deg, transparent, #FFE7D8);
+.africapay-0 .service_block.style_2 .service_icon {
+  background-image: linear-gradient(-20deg, transparent, #ffe7d8);
 }
 
-.cus-mar img{
+.cus-mar img {
   height: 60px;
   object-fit: contain;
   width: 60px;
 }
 
-.africapay-0 img.w-100.img-fluid.rounded-4{
+.africapay-0 img.w-100.img-fluid.rounded-4 {
   object-fit: cover !important;
   aspect-ratio: 16/9 !important;
 }
 
-.africapay-0 .site_link{
+.africapay-0 .site_link {
   max-width: unset !important;
   width: 100% !important;
 }
-.africapay-0 .site_logo img{
+.africapay-0 .site_logo img {
   height: 45px !important;
   width: auto !important;
   max-width: 100% !important;
@@ -717,39 +767,39 @@ header .nav-link {
   object-position: center !important;
 }
 
-.africapay-0 .mobile_menu_btn{
+.africapay-0 .mobile_menu_btn {
   background-color: #17a1ff;
   color: #000120 !important;
 }
 
 .hs-4-mobile {
-    height: 512px;
-    width: 249px;
-    margin: 0 auto;
-    position: relative;
+  height: 512px;
+  width: 249px;
+  margin: 0 auto;
+  position: relative;
 }
 .hs-4-iframe {
-    padding: 0;
-    border-radius: 55px;
-    position: absolute;
-    width: 100%;
-    left: 0;
-    z-index: 1;
-    top: 0;
-    width: 394px;
-    transform: scale(0.61) translateX(8px) translateY(3px);
-    bottom: 0 !important;
-    height: 163%;
-    transform-origin: left top;
-    scrollbar-width: none;
+  padding: 0;
+  border-radius: 55px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  top: 0;
+  width: 394px;
+  transform: scale(0.61) translateX(8px) translateY(3px);
+  bottom: 0 !important;
+  height: 163%;
+  transform-origin: left top;
+  scrollbar-width: none;
 }
 .hs-4-frame {
-    position: relative;
-    height: 100%;
-    z-index: 0;
+  position: relative;
+  height: 100%;
+  z-index: 0;
 }
 
-.iphone-notch{
+.iphone-notch {
   position: absolute;
   top: 8px;
   left: 50%;
@@ -758,24 +808,545 @@ header .nav-link {
   z-index: 2;
 }
 
-.africapay-0 .iconlist_block.unordered_list_block{
+.africapay-0 .iconlist_block.unordered_list_block {
   gap: 0 !important;
 }
-.africapay-0 .iconlist_block.unordered_list_block a{
+.africapay-0 .iconlist_block.unordered_list_block a {
   font-size: 14px !important;
 }
 
-.africapay-0 .footer_layout_4 .footer_info_title{
+.africapay-0 .footer_layout_4 .footer_info_title {
   margin-bottom: 15px !important;
 }
 
-.inner-page-s1 .text-desc-lg{
-  font-size: 16px;
+.inner-page-s1 .text-desc-lg {
+  font-size: 18px !important;
 }
 
-.inner-page-s1 .heading_block .heading_text{
-  font-size: 36px !important;
-  line-height: 120% !important;
+.inner-page-s1 .heading_block .heading_text {
+  font-size: 56px !important;
+  font-weight: 800 !important;
+  line-height: 100% !important;
+}
+
+/* SECTION BOX */
+.tp-service-2__section-box p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+}
+@media (max-width: 575px) {
+  .tp-service-2__section-box {
+    padding-bottom: 40px;
+  }
+  .tp-service-2__section-box p {
+    font-size: 17px;
+  }
+}
+
+/* SHAPE */
+.tp-service-2__shape {
+  position: absolute;
+  top: -145px;
+  left: 0;
+  width: 100%;
+}
+.tp-service-2__shape img {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .tp-service-2__shape {
+    top: -75px;
+  }
+}
+@media (max-width: 575px) {
+  .tp-service-2__shape {
+    top: -53px;
+  }
+}
+
+/* USER */
+.tp-service-2__user {
+  padding-left: 65px;
+}
+@media (max-width: 1199px) {
+  .tp-service-2__user {
+    padding-left: 40px;
+  }
+}
+@media (max-width: 991px) {
+  .tp-service-2__user {
+    padding-left: 0;
+    padding-right: 65px;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 575px) {
+  .tp-service-2__user {
+    padding-left: 0;
+    padding-right: 20px;
+  }
+}
+.tp-service-2__user span {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 24px;
+  color: var(--tp-common-black);
+  font-family: var(--tp-ff-mont);
+  padding-bottom: 16px;
+  display: inline-block;
+}
+.tp-service-2__user span i {
+  font-style: normal;
+}
+.tp-service-2__user p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+}
+@media (max-width: 575px) {
+  .tp-service-2__user p {
+    font-size: 10px;
+  }
+}
+
+/* USER SHAPE */
+.tp-service-2__user-shape {
+  position: absolute;
+  bottom: -18px;
+  right: 18px;
+}
+@media (max-width: 991px) {
+  .tp-service-2__user-shape {
+    right: auto;
+    left: 0;
+  }
+}
+.tp-service-2__user-shape svg {
+  width: auto;
+}
+@media (max-width: 575px) {
+  .tp-service-2__user-shape svg {
+    width: 100%;
+  }
+}
+
+/* ITEM WRAPPER */
+.tp-service-2__item-wrapper {
+  min-height: 280px;
+  width: 100%;
+}
+.tp-service-2__item-wrapper:hover .tp-service-2__bg-shape {
+  transform: rotate(0);
+}
+.tp-service-2__item-wrapper:hover .tp-service-2__item {
+  box-shadow: rgba(10, 10, 10, 0.1) 0px 100px 100px,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 0.5px inset;
+}
+.tp-service-2__item-wrapper:hover .tp-service-2__text {
+  transform: translateY(12px);
+}
+.tp-service-2__item-wrapper:hover .tp-service-2__link {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ITEM */
+.tp-service-2__item {
+  background: rgba(255, 255, 255, 0.3);
+  mix-blend-mode: normal;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 30px 30px rgba(1, 10, 10, 0.1),
+    inset 0px 0px 0.5px rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  position: relative;
+  height: 280px;
+  width: 100%;
+  padding: 50px 30px 45px;
+  transition: 0.3s;
+}
+.tp-service-2__icon {
+  font-size: 42px;
+  color: #060210;
+}
+/* BG SHAPE */
+.tp-service-2__bg-shape {
+  background: linear-gradient(41.25deg, #b2d6f8 25.09%, #81e0f5 94.14%);
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 20px;
+  height: 99%;
+  width: 100%;
+  transform: rotate(-10deg);
+  z-index: -1;
+  transition: all 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.tp-service-row > div {
+  padding: 0 40px;
+  margin-bottom: 40px;
+}
+
+.tp-account-main-img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+}
+
+.tp-account-main-img img {
+  width: 500px;
+}
+.tp-section-title-lg {
+  font-size: 60px;
+}
+
+.tp-section-subtitle-2 {
+  font-size: 16px;
+}
+@media (max-width: 1199px) {
+  /* replace #{$lg} */
+}
+
+@media (max-width: 991px) {
+  /* replace #{$md} */
+}
+
+@media (max-width: 575px) {
+  /* replace #{$xs} */
+}
+
+@media (max-width: 767px) {
+  /* replace #{$sm} */
+}
+
+@media (max-width: 991px) {
+  /* #{$md} */
+  .tp-account-section-box {
+    margin-top: 70px;
+  }
+}
+
+.tp-account-author {
+  position: absolute;
+  bottom: -6px;
+  right: 32%;
+}
+
+@media (max-width: 575px) {
+  /* #{$xs} */
+  .tp-account-author {
+    bottom: -3px;
+    right: 14%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* #{$sm} */
+  .tp-account-author {
+    bottom: -3px;
+    right: 31%;
+  }
+}
+
+.tp-account-shape-1 {
+  position: absolute;
+  top: -14px;
+  left: -2%;
+  animation: tpupdown 0.8s infinite alternate;
+}
+
+.tp-account-shape-2 {
+  position: absolute;
+  bottom: -6px;
+  right: 2%;
+  animation: moving 9s linear infinite;
+}
+
+.tp-account-step-wrapper {
+  padding-left: 40px;
+  padding-right: 60px;
+}
+
+@media (max-width: 1199px) {
+  /* #{$lg} */
+  .tp-account-step-wrapper {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  /* #{$xs} */
+  .tp-account-step-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.tp-account-item {
+  padding-bottom: 29px;
+  margin-bottom: 27px;
+  border-bottom: 1px solid #ededed;
+}
+
+.tp-account-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.tp-account-item span {
+  font-weight: 500;
+  font-size: 30px;
+  color: #060210;
+  margin-right: 35px;
+  min-width: 40px;
+}
+
+@media (max-width: 575px) {
+  /* #{$xs} */
+  .tp-account-item span {
+    margin-right: 20px;
+  }
+}
+
+.tp-account-item p {
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #060210;
+}
+
+@media (max-width: 1399px) {
+  /* #{$xl} */
+  .tp-account-item p {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 1199px) {
+  /* #{$lg} */
+  .tp-account-item p {
+    font-size: 18px;
+  }
+  .tp-account-item p br {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  /* #{$xs} */
+  .tp-account-item p {
+    font-size: 17px;
+    line-height: 23px;
+  }
+  .tp-account-item p br {
+    display: none;
+  }
+}
+
+.tp-account-btn-box p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 12px;
+  color: var(--tp-grey-5);
+}
+@media (max-width: 767px) {
+  .tp-service-2__bg-shape {
+    transform: rotate(-4deg);
+  }
+}
+@keyframes tpupdown {
+  0% {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes moving {
+  0% {
+    transform: translatey(0px);
+  }
+  20% {
+    transform: translateX(-50px);
+  }
+
+  50% {
+    transform: translatey(-40px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+/* TITLE SMALL */
+.tp-service-2__title-sm {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 16px;
+  margin-bottom: 11px;
+}
+
+.tp-service-2__title-sm a {
+  color: inherit !important;
+}
+@media (max-width: 1399px) {
+  .tp-service-2__title-sm {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  .tp-service-2__title-sm {
+    font-size: 17px;
+  }
+}
+
+/* LINK */
+.tp-service-2__link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: var(--tp-ff-mont);
+  color: var(--tp-common-black);
+  padding-top: 5px;
+  display: inline-block;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+  position: relative;
+}
+.tp-service-2__link::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background-color: var(--tp-common-black);
+  transition: width 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.tp-service-2__link i {
+  margin-left: 6px;
+  position: relative;
+  top: 1px;
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.tp-service-2__link:hover {
+  color: var(--tp-common-black);
+}
+.tp-service-2__link:hover::after {
+  width: 100%;
+}
+.tp-service-2__link:hover i {
+  transform: translateX(4px);
+}
+@media (max-width: 1199px) {
+  .tp-service-2__link {
+    font-size: 15px;
+  }
+}
+
+/* COLOR VARIANTS */
+.tp-service-2__color-2 {
+  background: linear-gradient(180deg, #b0f248 -9.62%, #6dd18a 100%);
+}
+.tp-service-2__color-3 {
+  background: linear-gradient(24.55deg, #ff94c7 22.06%, #ffdbba 92.53%);
+}
+.tp-service-2__color-4 {
+  background: linear-gradient(25.41deg, #b67dff 22.21%, #adbfff 91.18%);
+}
+
+/* BOTTOM WRAPPER */
+.tp-service-2__bottom-wrapper {
+  min-height: 230px;
+}
+
+/* FEATURE ITEM */
+.tp-service-2__feature-item {
+  padding: 50px 87px 35px;
+  min-height: 230px;
+  background: linear-gradient(142.23deg, #fff7f1 7.63%, #fae9ef 99.01%);
+  border-radius: 30px;
+}
+@media (max-width: 575px) {
+  .tp-service-2__feature-item {
+    padding: 20px;
+  }
+}
+
+/* BOTTOM BG SHAPE */
+.tp-service-2__bottom-bg-shape {
+  position: absolute;
+  top: -15px;
+  left: -29px;
+  z-index: -1;
+}
+
+/* TEXT */
+.tp-service-2__text {
+  transform: translateY(41px);
+  transition: 0.3s;
+}
+
+/* FEATURE LIST */
+.tp-service-2__feature-list ul li {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 15px;
+  color: #44464d;
+  position: relative;
+  padding-left: 13px;
+  width: 25%;
+  float: left;
+  margin-bottom: 14px;
+}
+.tp-service-2__feature-list ul li::after {
+  position: absolute;
+  top: 9px;
+  left: 0;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: #44464d;
+  content: "";
+}
+@media (max-width: 991px) {
+  .tp-service-2__feature-list ul li {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 575px) {
+  .tp-service-2__feature-list ul li {
+    font-size: 12px;
+    line-height: 24px;
+    width: 50%;
+  }
+}
+
+/* FEATURE TITLE */
+.tp-service-2__feature-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.1;
+  font-family: var(--tp-ff-mont);
+  padding-bottom: 20px;
+  margin-bottom: 13px;
 }
 @media (min-width: 1600px) {
   .africapay:not(.inner-page-s1) .container {
@@ -789,7 +1360,7 @@ header .nav-link {
   }
 }
 @media (max-width: 991.98px) {
-  .text-desc-lg{
+  .text-desc-lg {
     font-size: 20px;
   }
   .ahs-1 .arrows,
@@ -817,27 +1388,31 @@ header .nav-link {
   }
 
   .africapay .sc-1 {
-    background-image: url(../images/sc-img-mb-1.png);
+    background-image: url(/assets/images/sc-img-mb-1.png);
   }
 
   .africapay .sc-2 {
-    background-image: url(../images/sc-img-mb-2.png);
+    background-image: url(/assets/images/sc-img-mb-2.png);
   }
 
   .africapay .sc-3 {
-    background-image: url(../images/sc-img-mb-3.png);
+    background-image: url(/assets/images/sc-img-mb-3.png);
   }
 
   .africapay .sc-4 {
-    background-image: url(../images/sc-img-mb-4.png);
+    background-image: url(/assets/images/sc-img-mb-4.png);
   }
 
   .africapay .sc-5 {
-    background-image: url(../images/sc-img-mb-5.png);
+    background-image: url(/assets/images/sc-img-mb-5.png);
   }
 
   .africapay .sc-6 {
-    background-image: url(../images/sc-img-mb-6.png);
+    background-image: url(/assets/images/sc-img-mb-6.png);
+  }
+
+  .inner-page-s1 .heading_block .heading_text {
+    font-size: 40px !important;
   }
 }
 @media (max-width: 768px) {
@@ -864,13 +1439,138 @@ header .nav-link {
   .sc-title {
     font-size: 30px !important;
   }
-  .shb-title{
+  .shb-title {
     font-size: 40px !important;
   }
-  .sec-hinderance{
+  .sec-hinderance {
     padding: 50px 20px !important;
   }
-  .sh-box{
+  .sh-box {
     padding: 30px !important;
   }
+}
+
+.bg-pattern {
+  background-image: linear-gradient(
+    41.25deg,
+    #b2d6f8 25.09%,
+    #81e0f5 94.14%
+  ) !important;
+}
+
+.transaction-text > *,
+.auth-module-header a {
+  color: #060210 !important;
+}
+
+.input-form-control:hover,
+.input-form-control:focus {
+  border-color: #17a1ff !important;
+}
+
+.star {
+  color: #17a1ff !important;
+}
+
+.btn.rounded-pill {
+  border-radius: 100px !important;
+}
+
+.africapay-0-1 .africapay-hero-sec {
+  padding-top: 80px;
+  position: relative; /* Needed for the overlay positioning */
+  background-image: linear-gradient(135deg, #00b2b2, #1f5455, #018484, #016b6c);
+  background-size: cover;
+  overflow: hidden; /* Ensures the overlay doesn't leak out */
+}
+
+.africapay-0-1 .africapay-hero-sec .hero-box {
+  background-image: none !important;
+}
+
+.africapay-0-1 .text-primary {
+  color: #d9ff43 !important;
+}
+
+.africapay-0-1 .badge {
+  padding: 10px 16px 9px;
+  border-bottom: 1px solid #00b2b2;
+}
+
+.africapay-0-1 .badge i {
+  display: none !important;
+}
+
+.africapay-0-1 .stricky:not(.stricked-menu) .main_menu_list > li > .nav-link,
+.africapay-0-1
+  .header_layout_1
+  .xb-header:not(.stricked-menu)
+  .main_menu_list
+  > li
+  > a:after {
+  color: #ffffff !important;
+}
+
+.africapay-0-1 .pb-style-1 {
+  background-color: unset !important;
+  background-image: linear-gradient(142.23deg, #fff7f1 7.63%, #fae9ef 99.01%),
+    linear-gradient(142.23deg, #fff7f1 7.63%, #fae9ef 99.01%) !important;
+}
+
+.africapay-0-1 .pb-style-2 {
+  background-color: unset !important;
+  background-image: linear-gradient(
+    142.23deg,
+    #f3f8ff 7.63%,
+    #cedbff 99.01%
+  ) !important;
+}
+
+.africapay-0-1 .pb-style-3 {
+  background-color: unset !important;
+  background-image: linear-gradient(
+    284.05deg,
+    #ebd1ff 8.66%,
+    rgba(244, 233, 252, 1) 92.88%
+  ) !important;
+}
+
+.africapay-0-1 .pb-style-4 {
+  background-color: unset !important;
+  background-image: linear-gradient(
+    142.23deg,
+    #fdfdf5 7.63%,
+    #e9fbef 99.01%
+  ) !important;
+}
+
+.africapay-0-1 .pb-style-5 {
+  background-color: unset !important;
+  background-image: linear-gradient(
+    142.23deg,
+    #fff8fb 7.63%,
+    #fee9f3 99.01%
+  ) !important;
+}
+
+.africapay-0-1 .pb-style-6 {
+  background-color: unset !important;
+  background-image: linear-gradient(
+    142.23deg,
+    #f6fbff 7.63%,
+    #e9f4ff 99.01%
+  ) !important;
+}
+
+.africapay-0-1 .pb-style-7 {
+  background-color: unset !important;
+  background-image: linear-gradient(
+    284.05deg,
+    #fff0f0 8.66%,
+    rgba(255, 240, 240, 1) 92.88%
+  ) !important;
+}
+
+.africapay-0-1.africapay .pb-2-img {
+  aspect-ratio: 1/1;
 }
