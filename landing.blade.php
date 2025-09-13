@@ -55,8 +55,8 @@
     <link rel="stylesheet" type="text/css" href="/public/frontend-assets/css/odometer.min.css" />
 
     <!-- Custom - CSS Include -->
-    <link rel="stylesheet" type="text/css" href="/public/frontend-assets/css/style.css?v=9" />
-    <link rel="stylesheet" type="text/css" href="/public/frontend-assets/css/custom.css?v=9" />
+    <link rel="stylesheet" type="text/css" href="/public/frontend-assets/css/style.css?v=10" />
+    <link rel="stylesheet" type="text/css" href="/public/frontend-assets/css/custom.css?v=10" />
   </head>
 
   <body class="financial_consulting africapay africapay-0 inner-page-s1">
@@ -530,6 +530,6 @@
 
     <!-- Custom - Jquery Include -->
     <script src="/public/frontend-assets/js/main.js"></script>
-    <script src="/public/frontend-assets/js/custom.js?v=9"></script>
+    <script src="/public/frontend-assets/js/custom.js?v=10"></script>
   </body>
 </html>
