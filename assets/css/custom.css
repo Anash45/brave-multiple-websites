@@ -1594,11 +1594,11 @@ header .nav-link {
 }
 
 .africapay-0-2  .hero-box{
-  background-image: url(../images/harambee-hero-bg-2.png);
+  background-image: linear-gradient(#6844fe,#6844fe);
 }
 
 .africapay-0-2 .text-primary{
-  color: #b1ff36 !important;
+  color: #75c947 !important;
 }
 
 .africapay-0-2 .hero-content{
@@ -1606,10 +1606,10 @@ header .nav-link {
 }
 
 .africapay-0-3  .hero-box{
-  background-image: url(../images/congopay-hero-bg.jpg);
+  background-image: linear-gradient(#3646e2,#3d4de1);
 }
 
 
 .africapay-0-3 .text-primary {
-  color: #4fe88d !important;
+  color: #ffcb49 !important;
 }
