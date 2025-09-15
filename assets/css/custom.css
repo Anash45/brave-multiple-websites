@@ -1485,25 +1485,30 @@ header .nav-link {
 .africapay-0-1 .africapay-hero-sec {
   padding-top: 80px;
   position: relative; /* Needed for the overlay positioning */
-  background-image: linear-gradient(90deg,#1b1d1d 0,#0d5152 50%,#1b1d1d 100%);
+  background-image: linear-gradient(
+    90deg,
+    #1b1d1d 0,
+    #0d5152 50%,
+    #1b1d1d 100%
+  );
   position: relative;
   overflow: hidden;
 }
 
 .africapay-0-1 section.africapay-hero-sec::before {
-    content: "";
-    inset: 0;
-    position: absolute;
-    z-index: 1;
-    background-color: #03a6a6;
-    opacity: .6;
-    width: 100vw;
-    height: 100vw;
-    top: -170%;
-    left: 0;
-    border-radius: 50%;
-    position: absolute;
-    filter: blur(200px);
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: 1;
+  background-color: #03a6a6;
+  opacity: 0.6;
+  width: 100vw;
+  height: 100vw;
+  top: -170%;
+  left: 0;
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(200px);
 }
 
 .africapay-0-1 .africapay-hero-sec .hero-box {
@@ -1522,8 +1527,6 @@ header .nav-link {
 .africapay-0-1 .badge i {
   display: none !important;
 }
-
-
 
 .africapay-0-1 .pb-style-1 {
   background-color: unset !important;
@@ -1585,30 +1588,53 @@ header .nav-link {
   ) !important;
 }
 
+.africapay-0-1 .hero-title {
+  background: linear-gradient(to right, #a0cdcd, #f2fafa) !important;
+  color: transparent !important;
+  background-clip: text !important;
+}
+
 .africapay-0-1.africapay .pb-2-img {
   aspect-ratio: 1/1;
 }
 
-.africapay-0-1 .africapay-hero-sec{
+.africapay-0-1 .africapay-hero-sec {
   min-height: 100vh !important;
 }
 
-.africapay-0-2  .hero-box{
-  background-image: linear-gradient(#6844fe,#6844fe);
+.africapay-0-21 .hero-box {
+  background-image: url(../images/harambee-hero-bg-2.png);
 }
 
-.africapay-0-2 .text-primary{
+.africapay-0-21 .text-primary {
   color: #75c947 !important;
 }
 
-.africapay-0-2 .hero-content{
+.africapay-0-2 .hero-box {
+  background-image: linear-gradient(#6844fe, #6844fe);
+}
+
+.africapay-0-2 .text-primary {
+  color: #75c947 !important;
+}
+
+.africapay-0-2 .hero-content {
   color: #ffffff !important;
 }
 
-.africapay-0-3  .hero-box{
-  background-image: linear-gradient(#3646e2,#3d4de1);
+.africapay-0-3 .hero-box {
+  background-image: url(../images/leapord-print-yellow.png), linear-gradient(#3646e2, #3d4de1);
+  background-size: 400px, cover;
+  background-position: top right, center;
+  background-repeat: no-repeat, repeat;
 }
 
+.africapay-0-31 .hero-box {
+  background-image: url(../images/leapord-print-black.png), linear-gradient(35deg, #3d4de1, #463bbc, #9d7ff9) !important;
+  background-size: 400px, cover;
+  background-position: top right, center;
+  background-repeat: no-repeat, repeat;
+}
 
 .africapay-0-3 .text-primary {
   color: #ffcb49 !important;
