@@ -397,7 +397,7 @@ header .nav-link {
 }
 
 .africapay {
-  background-color: #f9f9f9;
+  background-color: #fdfdfd;
 }
 
 .africapay
@@ -1638,4 +1638,13 @@ header .nav-link {
 
 .africapay-0-3 .text-primary {
   color: #ffcb49 !important;
+}
+
+.africapay-0 .sc-icon{
+    height: 50px !important;
+}
+
+
+.africapay-0 .mc-icon{
+  height: 60px;
 }
