@@ -1481,19 +1481,17 @@ header .nav-link {
 
 .africapay-0-1 .africapay-hero-sec {
   padding-top: 80px;
+  margin: 48px;
   position: relative; /* Needed for the overlay positioning */
-  background-image: linear-gradient(
-    90deg,
-    #1b1d1d 0,
-    #0d5152 50%,
-    #1b1d1d 100%
-  );
+  border-radius: 20px 20px 20px 20px;
+  background-color: transparent;
+  background-image: radial-gradient(at bottom center, #1c7d49 0%, #151e31 50%);
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .africapay-0-1 section.africapay-hero-sec::before {
-  content: "";
+  /* content: ""; */
   inset: 0;
   position: absolute;
   z-index: 1;
@@ -1510,6 +1508,19 @@ header .nav-link {
 
 .africapay-0-1 .africapay-hero-sec .hero-box {
   background-image: none !important;
+}
+
+.africanpayment-hero-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+  transition: 0.4s ease-in-out;
+  transform: translateX(-15%) rotate(5deg);
+}
+
+.africapay-0-1 .africapay-hero-sec:hover .africanpayment-hero-1 {
+  transform: translateX(-15%) rotate(0deg);
 }
 
 .africapay-0-1 .text-primary {
@@ -1595,10 +1606,6 @@ header .nav-link {
   aspect-ratio: 1/1;
 }
 
-.africapay-0-1 .africapay-hero-sec {
-  min-height: 100vh !important;
-}
-
 .africapay-0-21 .hero-box {
   background-image: url(../images/harambee-hero-bg-2.png);
 }
@@ -1624,7 +1631,7 @@ header .nav-link {
   margin-top: 20px;
   background-image: radial-gradient(at bottom right, #3064c6 35%, #1f407f 70%);
 }
-.africapay-0-3 .hero-box>div{
+.africapay-0-3 .hero-box > div {
   position: relative;
   padding: 0 !important;
 }
@@ -1640,7 +1647,7 @@ header .nav-link {
   opacity: 0.06;
 }
 
-.congopay-hero-2{
+.congopay-hero-2 {
   position: absolute;
   bottom: -32px;
   right: 0;
@@ -1667,7 +1674,22 @@ header .nav-link {
   height: 60px;
 }
 
-@media (max-width: 992px){
+.africapay.africanpayment-home
+  .header_layout_1
+  .xb-header:not(.stricked-menu)
+  .main_menu_list
+  > li
+  > a,
+.africapay.africanpayment-home
+  .header_layout_1
+  .xb-header:not(.stricked-menu)
+  .main_menu_list
+  > li
+  > a:after {
+  color: #ffffff !important;
+}
+
+@media (max-width: 992px) {
   .congopay-hero-2 {
     position: relative;
     bottom: -45px;
@@ -1676,9 +1698,49 @@ header .nav-link {
     max-width: 100% !important;
     width: auto !important;
   }
+
+  .africanpayment-hero-1 {
+    position: relative;
+    top: unset;
+    right: 0;
+    width: 300px;
+    max-width: 100%;
+    transition: 0.4s ease-in-out;
+    margin: -130px auto 0;
+    display: block;
+    transform: translateX(0) translateY(130px) rotate(5deg) !important;
+  }
+  .africapay-0.africapay-0-1 .mobile_menu_btn {
+    background-color: #4ab179 !important;
+  }
+
+  .africapay-0-1 .africapay-hero-sec {
+    margin: 10px;
+  }
 }
 
-@media (max-width: 576px){
+@media (max-width: 768px) {
+  .congopay-hero-2 {
+    bottom: -24px;
+  }
+
+  .africapay.africanpayment-home
+    .header_layout_1
+    .xb-header:not(.stricked-menu)
+    .main_menu_list
+    > li
+    > a,
+  .africapay.africanpayment-home
+    .header_layout_1
+    .xb-header:not(.stricked-menu)
+    .main_menu_list
+    > li
+    > a:after {
+    color: #060210 !important;
+  }
+}
+
+@media (max-width: 576px) {
   .congopay-hero-2 {
     bottom: -24px;
   }
