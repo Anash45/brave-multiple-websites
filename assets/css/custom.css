@@ -1514,12 +1514,12 @@ header .nav-link {
   position: absolute;
   top: 0;
   right: 0;
-  width: 80%;
+  width: 85%;
   transition: 0.4s ease-in-out;
   transform: translateX(-15%) rotate(5deg);
 }
 
-.africapay-0-1 .africapay-hero-sec:hover .africanpayment-hero-1 {
+.africapay-0-1 .africapay-hero-sec .africanpayment-hero-1:hover {
   transform: translateX(-15%) rotate(0deg);
 }
 
