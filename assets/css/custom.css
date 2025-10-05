@@ -1620,11 +1620,31 @@ header .nav-link {
 }
 
 .africapay-0-3 .hero-box {
-  background-image: url(../images/leapord-print-yellow.png),
-    linear-gradient(#3646e2, #3d4de1);
-  background-size: 400px, cover;
-  background-position: top right, center;
-  background-repeat: no-repeat, repeat;
+  position: relative;
+  margin-top: 20px;
+  background-image: radial-gradient(at bottom right, #3064c6 35%, #1f407f 70%);
+}
+.africapay-0-3 .hero-box>div{
+  position: relative;
+  padding: 0 !important;
+}
+.africapay-0-3 .hero-box::before {
+  inset: 0;
+  content: "";
+  position: absolute;
+  background-image: url(../images/congopay-hero-bg-1.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 1300px auto;
+  mix-blend-mode: overlay;
+  opacity: 0.06;
+}
+
+.congopay-hero-2{
+  position: absolute;
+  bottom: -32px;
+  right: 0;
+  width: 50% !important;
 }
 
 .africapay-0-31 .hero-box {
@@ -1645,4 +1665,21 @@ header .nav-link {
 
 .africapay-0 .mc-icon {
   height: 60px;
+}
+
+@media (max-width: 992px){
+  .congopay-hero-2 {
+    position: relative;
+    bottom: -45px;
+    margin: 0 auto;
+    display: block;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+}
+
+@media (max-width: 576px){
+  .congopay-hero-2 {
+    bottom: -24px;
+  }
 }
